@@ -64,4 +64,4 @@ If you find this project helpful and would like to support its development, dona
 
 ---
 
-Created & Designed by [**Rainier Pearson Saputra**](https://rainier-ps.github.io/Personal-Website/)
+Created & Designed by [**Rainier Pearson Saputra**](https://rainier-ps.github.io/)
