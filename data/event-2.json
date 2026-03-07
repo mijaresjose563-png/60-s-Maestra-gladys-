@@ -80,7 +80,7 @@
         "text": "Warning: May contain bugs, memes, and spontaneous refactors.",
         "branding": {
             "link": "https://rainier-ps.github.io/Personal-Website/",
-            "logoUrl": "https://raw.githubusercontent.com/Rainier-PS/Personal-Website/main/images/site/Rainier%20Logo-Primary.svg",
+            "logoUrl": "https://raw.githubusercontent.com/Rainier-PS/rainier-ps.github.io/main/images/site/Rainier%20Logo-Primary.svg",
             "logoAlt": "Logo"
         },
         "credits": {
@@ -89,11 +89,12 @@
             "authorName": "Sleep-Deprived Developers",
             "templateLabel": "Template by",
             "templateAuthor": "Rainier Pearson Saputra",
-            "templateLink": "https://rainier-ps.github.io/Personal-Website/",
+            "templateLink": "https://rainier-ps.github.io/",
             "repoLabel": "Yes, This Is Open Source",
             "repoLink": "https://github.com/Rainier-PS/Invitation-Template"
         }
     }
 }
+
 
 
