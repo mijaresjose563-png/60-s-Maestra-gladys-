@@ -79,7 +79,7 @@
     "footer": {
         "text": "Warning: Cake may disappear faster than expected!",
         "branding": {
-            "link": "https://rainier-ps.github.io/Personal-Website/",
+            "link": "https://rainier-ps.github.io/",
             "logoUrl": "https://raw.githubusercontent.com/Rainier-PS/rainier-ps.github.io/main/images/site/Rainier%20Logo-Primary.svg",
             "logoAlt": "Logo"
         },
@@ -95,5 +95,6 @@
         }
     }
 }
+
 
 
