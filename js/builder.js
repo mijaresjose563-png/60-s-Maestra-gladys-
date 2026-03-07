@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "authorName": getValue('input-authorName'),
                     "templateLabel": "Template by",
                     "templateAuthor": "Rainier Pearson Saputra",
-                    "templateLink": "https://rainier-ps.github.io/Personal-Website/",
+                    "templateLink": "https://rainier-ps.github.io/",
                     "repoLabel": "Open Repository",
                     "repoLink": "https://github.com/Rainier-PS/Invitation-Template"
                 }
@@ -214,4 +214,5 @@ window.downloadJson = function () {
         btn.style.background = '';
     }, 2000);
 };
+
 
