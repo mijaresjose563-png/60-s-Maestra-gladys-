@@ -56,12 +56,12 @@
     ]
   },
 
-  "music": {
-    "enabled": false,
-    "loop": false,
-    "volume": 0.3,
-    "audioUrl": ""
-  },
+ "music": {
+  "enabled": true,
+  "loop": true,
+  "volume": 0.3,
+  "audioUrl": "https://raw.githubusercontent.com/Rainier-PS/Invitation-Template/main/media/audio/chill-abstract_intention.mp3"
+}
 
   "footer": {
     "text": "Gracias por acompañarnos en este día tan especial 💛",
