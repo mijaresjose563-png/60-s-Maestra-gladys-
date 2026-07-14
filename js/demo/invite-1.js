@@ -256,6 +256,10 @@ fetch(EVENT_JSON_URL)
         setText("event-title", data.event.title);
         setText("event-subtitle", data.event.subtitle);
         setText("event-description", data.event.description);
+        setText("event-gift", data.extraInfo?.gift);
+setText("event-drink", data.extraInfo?.drink);
+setText("event-dress", data.extraInfo?.dressCode);
+setText("event-children", data.extraInfo?.children);
 
         setText("event-date", formatDisplayDate(data.datetime.date));
 
