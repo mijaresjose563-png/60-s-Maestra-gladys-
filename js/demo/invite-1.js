@@ -505,14 +505,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const data = window.__EVENT_DATA__;
 
         const audio = new Audio();
-   audio.src = data.music.audioUrl;
+ audio.src = data.music.audioUrl;
+audio.load();
 audio.loop = data.music.loop ?? true;
 audio.volume = data.music.volume ?? 0.3;
-audio.preload = "auto";
-
-audio.addEventListener("error", (e) => {
-    console.error("Error cargando audio:", audio.error);
-});
 
 audio.load();
 
@@ -531,13 +527,7 @@ audio.load();
                     pauseIcon.style.display = 'none';
                     btn.classList.remove('playing');
                 } else {
-                   audio.play()
-    .then(() => {
-        console.log("Música reproduciendo");
-    })
-    .catch(e => {
-        console.error("No se pudo reproducir:", e);
-    });
+              audio.play().catch(e => console.log("Audio play blocked", e));
                     playIcon.style.display = 'none';
                     pauseIcon.style.display = 'block';
                     btn.classList.add('playing');
