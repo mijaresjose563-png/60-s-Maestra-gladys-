@@ -1,101 +1,93 @@
 {
-    "_meta_comment": "TEMPLATE CONFIGURATION — GLADYS 60TH BIRTHDAY EDITION",
-    "meta": {
-        "version": "1.0",
-        "private": false,
-        "simpleMode": false,
-        "showSimpleModeToggle": false,
-        "countdown": true
-    },
-    "event": {
-        "title": "Gladys Aracely Castillo Guajardo",
-        "subtitle": "Celebrando 60 años de vida",
-        "description": "Acompáñanos a celebrar una fecha muy especial llena de alegría, recuerdos y momentos inolvidables. Celebremos juntos los 60 años de Gladys Aracely."
-    },
-    "datetime": {
-        "date": "2026-08-08",
-        "startTime": "07:00 PM",
-        "endTime": "12:00 AM",
-        "timezone": "local",
-        "allDay": false
-    },
-    "location": {
-        "name": "📍 Jardín Muza Eventos",
-        "address": "Calle Matamoros Sur 905, Colonia 1º de Mayo, C.P. 25760, Monclova, Coahuila",
-        "mapsLink": "https://www.google.com/maps/search/?api=1&query=Jardín+Muza+Eventos+Monclova+Coahuila"
-    },
-    "schedule": [
-        {
-            "time": "07:00 PM",
-            "label": "Recepción de invitados"
-        },
-        {
-            "time": "08:30 PM",
-            "label": "Cena y convivencia"
-        },
-        {
-            "time": "10:00 PM",
-            "label": "Música y celebración"
-        },
-        {
-            "time": "12:00 AM",
-            "label": "Fin del evento"
-        }
-    ],
-    "details": {
-        "dressCode": {
-            "title": "Código de vestimenta 👗",
-            "text": "Vestir (no formal)"
-        },
-        "gift": {
-            "title": "🎁 Regalo",
-            "text": "No olvides traer tu regalo 🎁"
-        }
-    },
-    "rsvp": {
-        "enabled": true,
-        "url": "https://tally.so/embed/gDdp0d?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-    },
-    "calendar": {
-        "enabled": true,
-        "providers": {
-            "google": true
-        }
-    },
-    "design": {
+  "meta": {
+    "version": "1.0",
+    "private": false,
+    "simpleMode": false,
+    "showSimpleModeToggle": false,
+    "countdown": true
+  },
+
+  "event": {
+    "title": "Gladys Aracely Castillo Guajardo",
+    "subtitle": "Celebrando mis 60 años ✨",
+    "description": "Acompáñame a celebrar una fecha muy especial rodeada de familia y amigos. Será una noche llena de alegría, recuerdos y momentos inolvidables."
+  },
+
+  "datetime": {
+    "date": "2026-08-08",
+    "startTime": "19:00",
+    "endTime": "00:00",
+    "timezone": "local",
+    "allDay": false
+  },
+
+  "location": {
+    "name": "Jardín Muza Eventos",
+    "address": "Calle Matamoros Sur 905, colonia 1º de Mayo, C.P. 25760, Monclova, Coahuila.",
+    "mapsLink": "https://www.google.com/maps/search/?api=1&query=Jardín+Muza+Eventos+Monclova+Coahuila"
+  },
+
+  "schedule": [],
+
+  "rsvp": {
+    "enabled": false
+  },
+
+  "calendar": {
+    "enabled": true,
+    "providers": {
+      "google": true
+    }
+  },
+
+  "design": {
     "theme": "light",
     "accentColor": "#d4af37",
+
     "heroImages": [
-    "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200"
-]
-        "sectionBackgrounds": [
-        "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200",
-        "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=1200",
-        "https://images.unsplash.com/photo-1526047932273-4f2d5c9f2f8c?w=1200"
+      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200",
+      "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200",
+      "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1200"
+    ],
+
+    "sectionBackgrounds": [
+      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200",
+      "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1200"
     ]
-},
-    "music": {
-        "enabled": true,
-        "loop": true,
-        "volume": 0.3,
-        "audioUrl": "https://raw.githubusercontent.com/Rainier-PS/Invitation-Template/main/media/audio/chill-abstract_intention.mp3"
+  },
+
+  "music": {
+    "enabled": false,
+    "loop": false,
+    "volume": 0.3,
+    "audioUrl": ""
+  },
+
+  "footer": {
+    "text": "Gracias por acompañarnos en este día tan especial 💛",
+
+    "branding": {
+      "link": "",
+      "logoUrl": "",
+      "logoAlt": ""
     },
-    "footer": {
-        "text": "",
-        "branding": {
-            "link": "https://rainier-ps.github.io/",
-            "logoUrl": "https://raw.githubusercontent.com/Rainier-PS/rainier-ps.github.io/main/images/site/Rainier%20Logo-Primary.svg",
-            "logoAlt": "Logo"
-        },
-        "credits": {
-            "designByLabel": "Created & Designed by",
-            "copyrightYear": "2026",
-            "authorName": "Gladys Aracely Castillo Guajardo",
-            "templateLabel": "Template by",
-            "templateAuthor": "Rainier Pearson Saputra",
-            "templateLink": "https://rainier-ps.github.io/",
-            "repoLabel": "Yes, This Is Open Source",
-            "repoLink": "https://github.com/Rainier-PS/Invitation-Template"
-        }
+
+    "credits": {
+      "designByLabel": "",
+      "copyrightYear": "2026",
+      "authorName": "Gladys Aracely Castillo Guajardo",
+      "templateLabel": "",
+      "templateAuthor": "",
+      "templateLink": "",
+      "repoLabel": "",
+      "repoLink": ""
     }
+  },
+
+  "extraInfo": {
+    "gift": "No olvides traer tu regalo 🎁",
+    "drink": "Trae tu bebida favorita 🍹",
+    "dressCode": "Código de vestimenta: Vestir, no formal ✨",
+    "children": "No niños 🚫👧👦"
+  }
 }
