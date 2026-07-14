@@ -59,7 +59,7 @@
  "music": {
   "enabled": true,
   "loop": true,
-  "volume": 0.3,
+  "volume": 1,
   "audioUrl": "https://raw.githubusercontent.com/Rainier-PS/Invitation-Template/main/media/audio/chill-abstract_intention.mp3"
 }
 
